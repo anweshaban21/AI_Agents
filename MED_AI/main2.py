@@ -6,8 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 
 # 🔑 API KEYS
-PINECONE_API_KEY = "pcsk_31koiJ_G8DXngE8CLyR3baiDw2REp1smzMZyvu3iQH33WR3rnfFV3aAJh2Zbp2Kwd2BwYy"
-GEMINI_API_KEY = "AIzaSyA3GBZcNz-YM6ncsJh8qjKhXP1Ur8Fw8wY"
+
 
 # ✅ Gemini via OpenAI-compatible API
 client = OpenAI(
